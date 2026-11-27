@@ -1,0 +1,97 @@
+{
+    "best_model": "Random Forest",
+    "feature_columns": [
+        "trade_value",
+        "quantity",
+        "supplier_count",
+        "supplier_hhi",
+        "supplier_share",
+        "yoy_trade_change",
+        "trade_volatility",
+        "import_dependency",
+        "supplier_diversification",
+        "product_importance",
+        "event_count",
+        "conflict_event_count",
+        "instability_event_count",
+        "disaster_event_count",
+        "sanction_event_count",
+        "negative_event_intensity",
+        "event_trend",
+        "recent_event_risk"
+    ],
+    "metrics": {
+        "Logistic Regression": {
+            "accuracy": 0.6612,
+            "precision_macro": 0.716,
+            "recall_macro": 0.5815,
+            "f1_macro": 0.5787,
+            "f1_weighted": 0.636,
+            "confusion_matrix": [
+                [
+                    15,
+                    10,
+                    0
+                ],
+                [
+                    16,
+                    91,
+                    0
+                ],
+                [
+                    0,
+                    36,
+                    15
+                ]
+            ]
+        },
+        "Random Forest": {
+            "accuracy": 0.7705,
+            "precision_macro": 0.726,
+            "recall_macro": 0.6408,
+            "f1_macro": 0.6658,
+            "f1_weighted": 0.7554,
+            "confusion_matrix": [
+                [
+                    7,
+                    18,
+                    0
+                ],
+                [
+                    6,
+                    96,
+                    5
+                ],
+                [
+                    0,
+                    13,
+                    38
+                ]
+            ]
+        },
+        "XGBoost": {
+            "accuracy": 0.7869,
+            "precision_macro": 0.7585,
+            "recall_macro": 0.6365,
+            "f1_macro": 0.6573,
+            "f1_weighted": 0.7621,
+            "confusion_matrix": [
+                [
+                    5,
+                    20,
+                    0
+                ],
+                [
+                    3,
+                    99,
+                    5
+                ],
+                [
+                    0,
+                    11,
+                    40
+                ]
+            ]
+        }
+    }
+}
