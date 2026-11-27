@@ -2,15 +2,19 @@
 # STRAVIA AI – Multimodal Global Supply Chain Resilience Platform
 
 
+
 <p align="center">
   <a href="https://stravia-ai.streamlit.app/">
-    <img src="https://img.shields.io/badge/🚀_LIVE_DEMO-Launch_STRAVIA_AI-brightgreen?style=for-the-badge" alt="Live Demo">
+    <img src="https://img.shields.io/badge/LIVE_DEMO-Launch_Web_App-brightgreen?style=for-the-badge" alt="Live Demo">
   </a>
-  &nbsp;
+  <a href="https://github.com/sridss07/STRAVIA-AI/raw/refs/heads/main/STRAVIA_AI.apk">
+    <img src="https://img.shields.io/badge/ANDROID-Download_APK-blue?style=for-the-badge&logo=android" alt="Download APK">
+  </a>
   <a href="https://github.com/sridss07/STRAVIA-AI">
     <img src="https://img.shields.io/badge/GITHUB-View_Source_Code-black?style=for-the-badge&logo=github" alt="GitHub">
   </a>
 </p>
+
 
 
 ## 🚀 Live Application
